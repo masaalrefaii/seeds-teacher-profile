@@ -54,6 +54,25 @@ function App() {
       <div className="languages">
         <strong>Languages:</strong> {teacher.languages.join(', ')}
       </div>
+      <p className="bio">{teacher.bio}</p>
+
+<div className="languages">
+  <strong>Languages:</strong> {teacher.languages.join(', ')}
+</div>
+
+{/* 📹 Video Placeholder Section */}
+<div className="video-placeholder">
+  <h4>Watch Intro Video</h4>
+  <div className="video-box">
+    <iframe
+      src="https://www.youtube.com/embed/ECibetK2EYI"
+      title="Intro Video"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>
+</div>
+
 
       <h4>Courses Offered</h4>
       <div className="course-list">
